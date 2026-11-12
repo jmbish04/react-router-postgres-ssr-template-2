@@ -17,6 +17,8 @@
   },
   "observability": {
     "enabled": true,
+    "traces": { "enabled": false },
+    "logs": { "enabled": true, "invocation_logs": false }
   },
   "upload_source_maps": true,
 }
